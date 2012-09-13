@@ -1,7 +1,6 @@
-
 <snippet>
     <content><![CDATA[
-        var modules = modules || {};
+var modules = modules || {};
 
 /**
  * ${1:DESCRIPTION}
@@ -24,8 +23,6 @@ modules.${2:MODULENAME} = (function(${4:LOCALGLOBALS}){
         return true;
     };
 }(${3:GLOBALS}));
-
-Hello, ${1:this} is a ${2:snippet}.
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mod</tabTrigger>
