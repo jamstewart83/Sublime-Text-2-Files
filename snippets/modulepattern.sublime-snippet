@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+        var modules = modules || {};
+
+/**
+ * ${1:DESCRIPTION}
+ * @param  {[type]} ${4:LOCALGLOBALS} Gives us a local instance of ${4:LOCALGLOBALS}
+ * @return {[type]}              Exposes our public methods and properties
+ */
+modules.${2:MODULENAME} = (function(${4:LOCALGLOBALS}){
+    "use strict"; // Set our object to be in strict mode
+
+    // Declare all variables here, but for readability define them later.
+    var variable = "",
+        privateFunc = function(){ throw new Error("privateFunc undefined"); },
+        publicObj = {};
+
+    /**
+     * Initialise our object
+     * @return {bool} Return a boolean to test if init was successful.
+     */
+    publicObj.init = function(){
+        return true;
+    };
+}(${3:GLOBALS}));
+
+Hello, ${1:this} is a ${2:snippet}.
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mod</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
