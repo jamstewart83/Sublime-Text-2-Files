@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+]]></content>
+	<tabTrigger>one</tabTrigger>
+	<!--<scope>source.html</scope>-->
+</snippet>
